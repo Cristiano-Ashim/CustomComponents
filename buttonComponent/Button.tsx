@@ -1,4 +1,4 @@
-import './buttonStyles.css';
+import './custom-buttonStyles.css';
 
 export interface ButtonProps {
     onClickCallback: () => void;
@@ -12,7 +12,7 @@ const Button = (props: ButtonProps) => {
         props.onClickCallback();
     }
 
-    let className = "button " + props.style;
+    let className = "custom-button " + props.style;
     return (
         <>
             <button className={className}

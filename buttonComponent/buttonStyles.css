@@ -1,5 +1,5 @@
 
-.button{
+.custom-button{
     outline: none;
     box-shadow: none;
     border: none;
@@ -17,7 +17,7 @@
     font-family: cursive;
 }
 
-.button:hover {
+.custom-button:hover {
     background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
     background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
     cursor: pointer;
@@ -28,7 +28,7 @@
     -moz-transform:scale(1.1,1);
 }
 
-.button:active {/*on Click*/
+.custom-button:active {/*on Click*/
     -ms-transform: translateY(4px);
     -webkit-transform: translateY(4px);
     transform: translateY(4px);/*Move down*/
